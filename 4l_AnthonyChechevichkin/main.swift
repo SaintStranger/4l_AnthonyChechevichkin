@@ -20,12 +20,6 @@ enum tyreOption {
     case defaulTyre, highPerfomance
 }
 
-//enum wheelsAmount: Int {
-//    case 4, 6
-//}
-// не совсем понимаю, почему нельзя в enum перечислять целые значения?
-
-
 class Car {
     var brand: brandCar
     var year: Int
